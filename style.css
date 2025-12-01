@@ -118,6 +118,10 @@ nav ul li a:hover::after {
     font-size: 3rem;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
+    /* color: black; */
+}
+
+.home-name a {
     color: black;
 }
 
@@ -137,13 +141,13 @@ section {
 }
 
 #about {
-    background-color: gray;
+    /* background-color: gray; */
     padding: 6rem 0;
 }
 
 .section-title-about {
     text-align: center;
-    margin: 1rem 0 4rem;
+    margin: 1rem 0 1rem;
 }
 
 /* layout */
@@ -167,6 +171,7 @@ section {
 
 .about p {
     color: white;
+    text-align: justify;
 }
 
 .about-icon {
@@ -237,6 +242,64 @@ section {
     line-height: 2rem;
     padding: 0 1rem;
 }
+
+.skills-right a {
+    color: black;
+}
+
+.skills-right a:hover {
+    color: rgb(22, 26, 255);
+    transition: 0.2s ease-in-out;
+    padding: 1rem 1rem;
+}
+
+.project-left img {
+    display: flex;
+    width: 250px;
+    border-radius: 0.7rem;
+}
+
+.project-left img:hover {
+    transition: 0.2s ease-in-out;
+    padding: 1rem 1rem;
+}
+
+/* #project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.project h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.project-left img {
+    display: flex;
+    width: 250px;
+    border-radius: 0.7rem;
+}
+
+.project-mid img {
+    display: flex;
+    width: 250px;
+    border-radius: 0.7rem;
+    padding: 20px;
+}
+
+.project-right img {
+    display: flex;
+    width: 250px;
+    border-radius: 0.7rem;
+}
+
+.project-end img {
+    display: flex;
+    width: 250px;
+    border-radius: 0.7rem;
+}  */
 
 #contact {
     padding: 6rem;
