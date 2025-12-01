@@ -259,7 +259,7 @@ section {
     border-radius: 0.7rem;
 }
 
-.project-left img:hover {
+.project-left :hover {
     transition: 0.2s ease-in-out;
     padding: 1rem 1rem;
 }
